@@ -29,7 +29,7 @@ you can test api using curl
 
 #Frontend with angular
 
-##How to Run Backend
+##How to Run Frontend
 Steps 1 got to project directory
 ```
 >cd C:\reactive-ui-application\frontend\event-streaming-ui
