@@ -7,7 +7,7 @@ Spring WebFlux supports two types of programming models :
 1. Traditional annotation-based model with @Controller, @RequestMapping, and other annotations that you have been using in Spring MVC.
 2. A brand new Functional style model based on Java 8 lambdas for routing and handling requests.
 
-Here I created two different endpoint using two different apporach
+Here I created two different endpoint using two different apporaches
 
 ### How to Run Backend
 Steps 1 got to project directory
