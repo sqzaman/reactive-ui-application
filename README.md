@@ -11,9 +11,10 @@ Here I created two different endpoint using two different apporach
 
 ##How to Run Backend
 Steps 1 got to project directory
+```
 >cd C:\reactive-ui-application\backend\springboot-webflux
 >C:\reactive-ui-application\backend\springboot-webflux> mvn clean compile
-
+```
 Steps 2 run springboot project
 >mvn spring-boot:run
 
@@ -30,8 +31,11 @@ you can test api using curl
 
 ##How to Run Backend
 Steps 1 got to project directory
+```
 >cd C:\reactive-ui-application\frontend\event-streaming-ui
 >C:\reactive-ui-application\frontend\event-streaming-ui> npm install
-
+```
 Steps 2 run angular project
+```
 >ng serve
+```
