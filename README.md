@@ -1,7 +1,7 @@
 # reactive-ui-application
 Its a reactive ui application using spring webflux, angular and tomcat
 
-#Backend with Spring WebFlux, 
+## Backend with Spring WebFlux, 
 Spring WebFlux supports two types of programming models :
 
 1. Traditional annotation-based model with @Controller, @RequestMapping, and other annotations that you have been using in Spring MVC.
@@ -9,7 +9,7 @@ Spring WebFlux supports two types of programming models :
 
 Here I created two different endpoint using two different apporach
 
-##How to Run Backend
+### How to Run Backend
 Steps 1 got to project directory
 ```
 >cd C:\reactive-ui-application\backend\springboot-webflux
@@ -29,9 +29,9 @@ you can test api using curl
 ```
 ![speed_api](https://user-images.githubusercontent.com/1064462/89655449-2116ea80-d898-11ea-921c-ef595b3d0801.png)
 
-#Frontend with angular
+## Frontend with angular
 
-##How to Run Frontend
+### How to Run Frontend
 Steps 1 got to project directory
 ```
 >cd C:\reactive-ui-application\frontend\event-streaming-ui
