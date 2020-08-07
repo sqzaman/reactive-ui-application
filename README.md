@@ -13,7 +13,7 @@ Here I created two different endpoint using two different apporach
 ##How to Run Backend
 Steps 1 got to project directory
 >cd C:\reactive-ui-application\backend\springboot-webflux
-C:\reactive-ui-application\backend\springboot-webflux> mvn clean compile
+>C:\reactive-ui-application\backend\springboot-webflux> mvn clean compile
 
 Steps 2 run springboot project
 >mvn spring-boot:run
@@ -32,7 +32,7 @@ curl http://localhost:8080/api/v1/monitor/speed
 ##How to Run Backend
 Steps 1 got to project directory
 >cd C:\reactive-ui-application\frontend\event-streaming-ui
-C:\reactive-ui-application\frontend\event-streaming-ui> npm install
+>C:\reactive-ui-application\frontend\event-streaming-ui> npm install
 
 Steps 2 run angular project
 >ng serve
