@@ -26,6 +26,7 @@ you can test api using curl
 ```
 >curl http://localhost:8080/api/v1/monitor/speed
 ```
+![speed_api](https://user-images.githubusercontent.com/1064462/89655449-2116ea80-d898-11ea-921c-ef595b3d0801.png)
 
 #Frontend with angular
 
