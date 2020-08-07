@@ -1,0 +1,43 @@
+.bar-status{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    text-align: -webkit-center;
+    color: white;
+    line-height: 18px;
+}
+.green {
+    background-color: green;  
+}
+
+.red {
+    background-color:red;  
+}
+
+.yellow {
+    background-color: chocolate;  
+}
+
+.sky {
+    background-color: skyblue;  
+}
+
+.speed-info{
+    font-size: 12px;
+    margin-left:10px;
+}
+
+.alert {
+    padding: 0.25rem;
+}
+
+.message-info {
+    font-size: 10px;
+    margin-left:5px;
+}
+
+.text {
+    background-color: skyblue;  
+}

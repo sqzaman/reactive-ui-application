@@ -1,0 +1,29 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="row" style="margin-top:30px;">
+  
+    <div class="col-lg-7">
+        <h4>Vehicle Movement Stream</h4>
+      <ng-container *ngFor="let info of speedInfo$ | async">
+              <div [ngClass]="getClass(info.speed)" role="alert">
+                <span [ngClass]="getClassForIcon(info.speed)">i</span>
+                  <span class="speed-info">VIN:  {{info.vehicle.vin}}&nbsp;</span>
+                  <span class="speed-info">PlateNumber:  {{info.vehicle.plateNumber}}&nbsp;</span>
+                  <span class="speed-info">Speed:  {{info.speed}} mp/h&nbsp;</span>
+                  <span class="speed-info">Time:  {{info.time}}</span>
+                </div>
+         </ng-container>
+    </div>
+
+    <div class="col-lg-5">
+        <h4>Text Message Event stream</h4>    
+        <ng-container *ngFor="let info of textMessage$ | async">
+            <div class="alert alert-info" role="alert">
+              <span class="bar-status text">i</span>
+                <span class="message-info">Id:  {{info.id}}&nbsp;</span>
+                <span class="message-info">Text:  {{info.text}}&nbsp;</span>
+                <span class="message-info">Time:  {{info.time}}</span>
+              </div>
+       </ng-container>  
+    </div>
+<div class="col-lg-4"></div>
+</div>
