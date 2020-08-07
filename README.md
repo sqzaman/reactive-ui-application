@@ -1,7 +1,7 @@
 # reactive-ui-application
 Its a reactive ui application using spring webflux, angular and tomcat
 
-#Backend with Spring WebFlux 
+#Backend with Spring WebFlux, 
 Spring WebFlux supports two types of programming models :
 
 1. Traditional annotation-based model with @Controller, @RequestMapping, and other annotations that you have been using in Spring MVC.
