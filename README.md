@@ -20,11 +20,11 @@ Steps 2 run springboot project
 
 you can test api using curl
 ```
-curl http://localhost:8080/api/v1/events
+>curl http://localhost:8080/api/v1/events
 ```
 
 ```
-curl http://localhost:8080/api/v1/monitor/speed
+>curl http://localhost:8080/api/v1/monitor/speed
 ```
 
 #Frontend with angular
